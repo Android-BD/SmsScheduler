@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.mrhungonline.sendsmsschedule.SendSMSActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.mrhungonline.sendsmsschedule.SmsService { <init>(...); }
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextPhoneNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:phoneNumber="true" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextSMS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:hint="Nội dung tin nhắn"
+        android:lines="1" />
+
+    <EditText
+        android:id="@+id/editTextSolan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="số lần"
+        android:numeric="integer"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextThoiGian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian Random (giây)"
+        android:numeric="integer"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editTextMinRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="số giây nhỏ nhất trong random"
+         android:numeric="integer"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/buttonHuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines = "10"
+		android:scrollbars = "vertical"
+        android:text="" />
+
+</LinearLayout>

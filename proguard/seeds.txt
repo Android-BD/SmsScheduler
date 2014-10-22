@@ -1,0 +1,14 @@
+com.mrhungonline.sendsmsschedule.R$drawable: int ic_launcher
+com.mrhungonline.sendsmsschedule.R$id: int buttonHuy
+com.mrhungonline.sendsmsschedule.R$id: int buttonSend
+com.mrhungonline.sendsmsschedule.R$id: int editTextMinRandom
+com.mrhungonline.sendsmsschedule.R$id: int editTextPhoneNo
+com.mrhungonline.sendsmsschedule.R$id: int editTextSMS
+com.mrhungonline.sendsmsschedule.R$id: int editTextSolan
+com.mrhungonline.sendsmsschedule.R$id: int editTextThoiGian
+com.mrhungonline.sendsmsschedule.R$id: int linearLayout1
+com.mrhungonline.sendsmsschedule.R$id: int textViewResult
+com.mrhungonline.sendsmsschedule.R$layout: int main
+com.mrhungonline.sendsmsschedule.R$string: int app_name
+com.mrhungonline.sendsmsschedule.SendSMSActivity
+com.mrhungonline.sendsmsschedule.SendSMSActivity: SendSMSActivity()
