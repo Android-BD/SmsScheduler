@@ -1,6 +1,6 @@
 SmsScheduler
 ============
-Simple send sms with schedule
+Simple Android sms schedule: Send sms with scheduler
 <br/>
 <br/>*send sms with random time
 <br/>*send sms with schedule
