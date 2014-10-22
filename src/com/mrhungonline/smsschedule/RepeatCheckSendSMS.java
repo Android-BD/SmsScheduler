@@ -1,4 +1,4 @@
-package com.mrhungonline.sendsmsschedule;
+package com.mrhungonline.smsschedule;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Send SMS Schedule</string>
+    <string name="phone">Phone number</string>
+    <string name="body">Sms Content</string>
+    <string name="repeat">Repeat times</string>
+    <string name="time_random">Random time(second)</string>
+    <string name="time_min_random">Min Random time(second)</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
 </resources>

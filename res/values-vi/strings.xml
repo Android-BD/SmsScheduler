@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Send SMS Schedule</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="body">Nội dung tin nhắn</string>
+    <string name="repeat">số lần</string>
+    <string name="time_random">Thời gian Random (giây)</string>
+    <string name="time_min_random">số giây nhỏ nhất trong random</string>
+    <string name="cancel">Hủy</string>
+    <string name="send">Gửi</string>
+</resources>

@@ -1,4 +1,4 @@
-package com.mrhungonline.sendsmsschedule;
+package com.mrhungonline.smsschedule;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.mrhungonline.smsschedule.R;
 
 public class SendSMSActivity extends Activity {
 	public static String SEND_BOCASD = "sendbocast";

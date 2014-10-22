@@ -9,7 +9,7 @@
         android:id="@+id/editTextPhoneNo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="Số điện thoại"
+        android:hint="@string/phone"
         android:phoneNumber="true" >
     </EditText>
 
@@ -19,14 +19,14 @@
         android:layout_height="wrap_content"
         android:gravity="top"
         android:inputType="textMultiLine"
-        android:hint="Nội dung tin nhắn"
+        android:hint="@string/body"
         android:lines="1" />
 
     <EditText
         android:id="@+id/editTextSolan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="số lần"
+        android:hint="@string/repeat"
         android:numeric="integer"
         android:ems="10" >
 
@@ -37,7 +37,7 @@
         android:id="@+id/editTextThoiGian"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Thời gian Random (giây)"
+        android:hint="@string/time_random"
         android:numeric="integer"
         android:ems="10" />
 
@@ -45,7 +45,7 @@
         android:id="@+id/editTextMinRandom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="số giây nhỏ nhất trong random"
+        android:hint="@string/time_min_random"
          android:numeric="integer"
         android:ems="10" />
 
@@ -57,13 +57,13 @@
             android:id="@+id/buttonSend"
             android:layout_width="152dp"
             android:layout_height="wrap_content"
-            android:text="Send" />
+            android:text="@string/send" />
 
         <Button
             android:id="@+id/buttonHuy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hủy" />
+            android:text="@string/cancel" />
 
     </LinearLayout>
 
